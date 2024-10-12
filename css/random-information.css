@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.random-information {
+  background-color: #ffffff;
+}
+
+.random-information-content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 3rem 0 6rem;
+}
+
+.random-information-content h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.random-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.random-image {
+  max-width: 10rem;
+  margin-top: 3rem;
+}
+
+.random-information-content .image {
+  width: 10rem;
+  height: 10rem;
+  border: 0.09rem solid blue;
+  border-radius: 9px;
+}
+
+.random-information-content .image-subtext {
+  font-size: 0.7rem;
+  text-align: center;
+  color: #1f2937;
+  margin-top: 0.5rem;
+}

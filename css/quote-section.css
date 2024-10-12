@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.quote-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 7rem 0;
+}
+
+.quote-container p:first-child {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-container p:last-child {
+  margin-top: 1rem;
+  font-size: 36px;
+  text-align: right;
+}
